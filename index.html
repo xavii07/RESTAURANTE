@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Cafe-Restaurante</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="shorcut icon" href="img/icono.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<!------------------------------------------------------
+---------------CAFE - RESTAURANTE-----------------------
+------------------------------------------------------->
+<!--HEADER con el menu y el texto -->
+	<header>
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#" id="btn-acerca-de">Acerca de</a>
+				<a href="#" id="btn-menu">Menu</a>
+				<a href="#" id="btn-galeria">Galeria</a>
+				<a href="#" id="btn-ubicacion">Ubicacion</a>
+			</nav>
+
+			<div class="textos">
+				<h1 class="nombre">Cafe <span class="apellido">FamiliaGaspata</span></h1>
+				<h3>100% <img src="img/1f1ea-1f1e8.svg" width="50px" height="50px" alt=""> Ecuatoriano el mejor de America</h3>
+			</div>
+		</div>
+	</header>
+	
+<!--Este es un section principal que guarda a todos los sections internos-->
+<section class="main">
+	<!---ACERCA DE con un section-->
+	<section class="acerca-de" id="acerca-de">
+		<div class="contenedor">
+			<div class="foto">
+				<img src="img/acerca-de.jpg" alt="Acerca-de">
+			</div>
+			<article>
+				<h3>Acerca de</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse reiciendis quod libero soluta non laborum quasi repudiandae inventore consectetur vel mollitia, quae quam enim molestiae dicta, possimus rerum, dolorem ipsum.</p>
+			</article>
+		</div>
+	</section>
+
+	<!--aqui va el menu que ofrecemos en el restaurante-->
+
+	<section class="menu" id="menup">
+		<div class="contenedor">
+			<h3 class="titulo" id="platillos">Menu</h3>
+			<div class="contenedor-menu">
+				<div class="contenedor-menu2">
+					<!--este article contiene los platillos el precio y la descripcion-->
+					<article>
+						<p class="categoria">De Comer &#x1f372;</p>
+						<div class="platillo">
+							<p class="nombre">sed sadgitis nils</p>
+							<p class="precio">$5</p>
+							<p class="descripcion">lorem gravida, sit serieum restrom inside from relax.</p>
+						</div>
+						
+						<div class="platillo">
+							<p class="nombre">sadgitis from you</p>
+							<p class="precio">$12</p>
+							<p class="descripcion">serieum restrom, next to floor coffee inside from relax.</p>
+						</div>
+
+						<div class="platillo">
+							<p class="nombre">fries with fish</p>
+							<p class="precio">$8</p>
+							<p class="descripcion">lorem sit restroom serieum  inside.</p>
+						</div>
+
+						<div class="platillo">
+							<p class="nombre">tea with coffee</p>
+							<p class="precio">$7</p>
+							<p class="descripcion"> gravida, sit serieum  lorem restrom  from for time.</p>
+						</div>
+					</article>
+
+					<article>
+						<p class="categoria">De Tomar &#x1f37a;</p>
+						<div class="platillo">
+							<p class="nombre">orange juice</p>
+							<p class="precio">$3</p>
+							<p class="descripcion">juice, delicusi sit with sugar inside you relax.</p>
+						</div>
+						
+						<div class="platillo">
+							<p class="nombre">apple juice</p>
+							<p class="precio">$2.5</p>
+							<p class="descripcion">juice, next to floor coffee inside from their.</p>
+						</div>
+
+						<div class="platillo">
+							<p class="nombre">coca-cola</p>
+							<p class="precio">$1</p>
+							<p class="descripcion">a glass of bottle sit restroom serieum.</p>
+						</div>
+
+						<div class="platillo">
+							<p class="nombre">water</p>
+							<p class="precio">$2</p>
+							<p class="descripcion">water of mountain and refresh  lorem restrom for time.</p>
+						</div>
+					</article>
+				</div>
+			</div>	 
+		</div>
+	</section>
+
+<!--aqui van el section de la galeria de imagenes-->
+	<section class="galeria" id="galeria">
+		<div class="foto">
+			<img src="img/1.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/2.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/3.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/4.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/5.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/6.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/7.jpg" alt="">
+		</div>
+		<div class="foto">
+			<img src="img/8.jpg" alt="">
+		</div>
+	</section>
+
+<!--aqui va la ubicacion del restaurante-->		
+	<section class="ubicacion" id="ubicacion">
+		<div class="contenedor">
+			<h3 class="titulo">Ubicacion</h3>
+			<div class="direccion">
+				<p class="calle">Av. Turubamba <br/> EC  EI-364</p>
+				<p class="telefono">(+593) 995018185</p>
+				<p class="correo">xaviergaspa123@gmail.com</p>
+			</div>
+
+			<div class="horarios">
+				<h4>Horarios</h4>
+				<p class="entre-semana">Lunes a Viernes <br/>08:00 - 20:00</p>
+				<p class="fin-semana">Sabados y Domingos <br/>07:00 - 22:00</p>
+			</div>
+		</div>
+	</section>
+
+	<!--aqui va el mapa del restaurante-->
+	<section class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7633549066663!2d-78.54078888514262!3d-0.30075053543009145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5a36f42bcd939%3A0x6f068f00e472cb88!2sXPKomputer!5e0!3m2!1ses!2sec!4v1596832847244!5m2!1ses!2sec" width="1600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</section>
+</section>
+
+
+<!---FOOTER--->
+<footer>
+	<div class="titulo-redes">
+		<h3 class="titulo">Redes Sociales</h3>
+	</div>
+	
+	<div class="contenedor">
+		<a href="https://www.facebook.com/xavier.devaluado.7?ref=bookmarks" class="facebook" target="_black"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/Xavii072" class="twitter" target="_black"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/xaviie07/" class="instagram" target="_black"><i class="fa fa-instagram"></i></a>
+		<a href="https://wa.me/5930995018185?text=Hola%20Xavier%20Gaspata" class="whatsapp" target="_black"><i class="fa fa-whatsapp"></i></a>
+		<a href="https://www.youtube.com/channel/UCXDYbFhsASPEPhJHThuGVVw/videos?view_as=subscriber" class="youtube" target="_black"><i class="fa fa-youtube-play"></i></a>
+	</div>
+	<div class="copy">
+			Copyright XavierGaspata @2020
+	</div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/efectos.js"></script>
+<script src="js/parallax.js"></script>
+</body>
+</html>
